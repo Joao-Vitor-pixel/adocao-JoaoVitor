@@ -3,10 +3,12 @@ então se eu quero mudar o estilo de algo
 eu preciso referenciar o nome do elemento ou sua classe */
 /* GERALMENTE NO BODY PADRONIZAMOS MARGENS E ESPAÇAMENTOS  */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
     margin: 0px;
     padding: 0px;
+    font-family: "Roboto", sans-serif;
 }
 .back-primario {
     background-color:#6ce7e3;
@@ -24,3 +26,110 @@ body {
 .content{
     width: 80%;
 }
+
+/* CLASSES DE ESTILIZAÇÃO DE TEXTOS */
+/* TITULO COM COR PRIMÁRIA */
+.title-1{
+    color: #2d3555;
+
+
+}
+/* TEXTOS DE APOIO COM COR PRIMÁRIA */
+.text-info{
+    color:#2d3555;
+}
+
+/* CLASSES PARA BOTÕES */
+.btn-primary{
+    background-color: #2d3555;
+    border: none;
+    width: 100%;
+    height: 55px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+
+
+}
+
+
+
+/* CLASSES DE PADRÕES DE MARGENS */
+.top1{
+    margin-top: 1vh;
+}
+.top2{
+    margin-top: 2vh;
+}
+.top3{
+    margin-top: 3vh;
+}
+.top4{
+    margin-top: 4vh;
+}
+.top5{
+    margin-top: 5vh;
+}
+.top6{
+    margin-top: 6vh;
+}
+.top7{
+    margin-top: 7vh;
+}
+.top8{
+    margin-top: 8vh;
+}
+
+
+
+/* LOGIN */
+
+.login-1{
+    background-color: #2E3656;
+
+}
+.title-2{
+    color: #6CE7E3;
+    
+    
+}
+.text-info-2{
+    color: #fff;
+    font-weight: 100;
+    
+   
+}
+.btn-login{
+    background-color: #6CE7E3;
+    border: none;
+    width: 100%;
+    height: 55px;
+    color: #2d3555;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+    
+}
+.input-login{
+    border: none;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #DDDFEB;
+    color: #2E3656;
+    font-size: 14px;
+    font-weight: 100;
+    
+
+}
+.input-login::placeholder {
+    color: #2E3656;
+    padding-left:20px;
+    
+  }
+
+  a{
+    color: #fff;
+    font-weight: 300;
+  }
